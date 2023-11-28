@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Serif+Balinese&display=swap");
+
+/* fonts  
+
+font-family: 'Arimo', sans-serif;
+font-family: 'Noto Serif Balinese', serif;
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root p {
+    font-family: "Noto Serif Balinese", serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 2rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Arimo", sans-serif;
+    font-weight: 500;
+    padding-right: 1rem;
+    color: black;
+}
+
+nav {
+    margin: 1.5rem 0rem 0rem 1rem;
+}
+
+.conteiner {
+    margin: 10rem auto 0 0;
+    background: black url(assets/background01.jpeg) center right;
+    background-size: cover;
+    height: 23rem;
+    padding-top: 5rem;
+}
+
+.conteiner h2 {
+    font-weight: 300;
+    font-size: 3.1rem;
+    margin-left: 1rem;
+}
+
+.conteiner h1 {
+    font-weight: 600;
+    font-size: 4.8rem;
+    margin-left: 1rem;
+}
+
+.conteiner p {
+    font-family: "Noto Serif Balinese", serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.conteiner button {
+    color: #fff;
+    background-color: black;
+    padding: 0.8rem;
+    margin: 1rem 1rem 0 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.conteiner button:hover {
+    background-color: rgba(0, 0, 0, 0.637);
+    transition: 0.2s;
+}
+
+.conteiner a {
+    color: black;
+}
+
+.conteiner a:hover {
+    color: rgba(0, 0, 0, 0.822);
+    text-decoration: none;
+}
+
+#adress {
+    margin-top: 6.7rem;
+    background-color: black;
+    color: #fff;
+    margin-left: auto;
+    width: 13rem;
+    justify-content: right;
+    padding: 0.3rem;
+}
+
+.conteiner-description {
+    display: flex;
+    justify-content: space-between;
+}
+.conteiner-description div {
+    margin: 3rem 1rem 0rem 1rem;
+}
+
+.conteiner-description img {
+    width: 3rem;
+}
+
+.conteiner-description div h3 {
+    font-weight: bold;
+    font-family: "Arimo", sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.conteiner-description div p {
+    text-align: justify;
+    width: 21rem;
+}
+
+.subtitulo {
+    margin-top: 8rem;
+    margin-left: 1rem;
+}
+.subtitulo h3 {
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: "Arimo", sans-serif;
+}
+
+.subtitulo p {
+    width: 34rem;
+    padding-top: 1rem;
+}
+
+.link-subtitulo {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.link-subtitulo a {
+    color: black;
+}
+
+.link-subtitulo a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+.tittle {
+    text-align: left;
+    margin-left: 2rem;
+    width: 30rem;
+}
+
+.tittle p {
+    width: 32rem;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.text {
+    background-color: lightgray;
+    margin: 2rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0 5rem;
+}
+
+.text h2 {
+    font-size: 3rem;
+    font-family: "Arimo", sans-serif;
+}
+
+.container-box-text {
+    display: flex;
+}
+
+.boxtext {
+    margin-left: 1rem;
+    padding-top: 2rem;
+}
+
+.boxtext div {
+    width: 21rem;
+    padding: 1rem;
+}
+
+.boxtext div h3 {
+    font-weight: bold;
+    font-family: "Arimo", sans-serif;
+}
+
+.boxtext div p {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+
+.boxregister {
+    text-align: center;
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    margin-right: 1rem;
+}
+.boxregister img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    width: 2rem;
+}
+
+.boxregister h3 {
+    font-size: 1.5rem;
+    font-family: "Arimo", sans-serif;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.boxregister p {
+    font-size: 0.8rem;
+    text-align: justify;
+    padding: 0.4rem 1.5rem;
+}
+
+.boxregister input {
+    text-align: center;
+    font-family: cursive;
+    background-color: rgba(128, 128, 128, 0.315);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    margin-bottom: 0.3rem;
+    border-color: white;
+}
+
+.boxregister a {
+    color: black;
+    font-weight: bold;
+}
+
+.boxregister button {
+    color: #fff;
+    background-color: black;
+    padding: 0.6rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.aside-topo img {
+    width: 2rem;
+    margin: 0 0 0 2rem;
+}
+
+.aside-topo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 8rem;
+}
+
+.aside-topo p {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.list {
+    display: flex;
+    justify-content: right;
+}
+
+.list div {
+    margin-right: 7rem;
+    margin-top: 3rem;
+}
+
+.list li {
+    list-style: none;
+    margin-top: 5px;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+h4{
+font-family: 'Arimo', sans-serif;
+ 
+}
+aside{
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.aside-topo h4:last-child{
+    margin-left: 2rem;
+}
+.aside-bot div {
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-right: 7rem;
+}
+
+.aside-bot p:first-child{
+    
+    margin-left: -4.2rem;
+    margin-right: 4.6rem;
+}
+
+
+
+.aside-bot p {
+    font-size: 0.9rem;
+}
